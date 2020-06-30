@@ -1,0 +1,6 @@
+my_list = []
+for x in range(1, 1001):
+    if x % 3 == 0:
+        my_list.append(x)
+
+print(my_list)
